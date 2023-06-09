@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unspace. | Design Agency, UI/UX, Web Design, Illustration</title>
+
+    <link rel="icon" type="image/x-icon" sizes="16x16 24x24 32x32" href="src/assets/img/favicon-32px.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/font.css">
+
+    <link href="src/css/req-quote.css" rel="stylesheet">
+    <link href="src/css/navbar.css" rel="stylesheet">
+    <link href="src/css/footer.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="hero-req-quote" style="background-image: url('src/assets/img/hero-req-bg.png');">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-fixed-top" data-aos="fade-down">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Unspace.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#modalNavbarMobile">
+                    <span class="navbar-toggler-icon"
+                        style="background-image: url('src/assets/img/navbar-toggler.png')"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mb-lg-0  mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workflow" role="button">Workflow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="req-quote.html">Say Hello for Collab!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html" class="text-decoration-none">
+                        <h3 class="logo text-center" data-aos="fade-down">Unspace.</h3>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <div id="hero" class="d-flex justify-content-center" data-aos="zoom-in">
+                        <div class="top text-center">
+                            <h1>We’d love collaborate! <br> Tell us all the things</h1>
+                            <span>Take a look at what we can do for you.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="req-quote">
+        <div class="container">
+            <div class="row">
+                <form action="#">
+                    <div class="what">
+                        <h3>What’s service you need? *</h3>
+                        <div class="row desktop">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <h4>Visual Design</h4>
+
+                                    <div class="d-flex">
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="web-design" autocomplete="off"
+                                                value="Web Design" name="service">
+                                            <label class="btn btn-outline-secondary" for="web-design">Web Design</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="app-design" autocomplete="off"
+                                                value="App Design" name="service">
+                                            <label class="btn btn-outline-secondary" for="app-design">App Design</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="sass-design" autocomplete="off"
+                                                value="SAAS Design" name="service">
+                                            <label class="btn btn-outline-secondary" for="sass-design">SAAS
+                                                Design</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="illustration"
+                                                autocomplete="off" value="Illustration" name="service">
+                                            <label class="btn btn-outline-secondary"
+                                                for="illustration">Illustration</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="dashboard-design"
+                                                autocomplete="off" value="Dashboard Design" name="service">
+                                            <label class="btn btn-outline-secondary" for="dashboard-design">Dashboard
+                                                Design</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="branding-edentity"
+                                                autocomplete="off" value="Branding Identity" name="service">
+                                            <label class="btn btn-outline-secondary" for="branding-edentity">Branding
+                                                Identity</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="pitch-deck" autocomplete="off"
+                                                value="Pitch Deck" name="service">
+                                            <label class="btn btn-outline-secondary" for="pitch-deck">Pitch Deck</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="real-estate" autocomplete="off"
+                                                value="Real Estate" name="service">
+                                            <label class="btn btn-outline-secondary" for="real-estate">Real
+                                                Estate</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="b2b-design" autocomplete="off"
+                                                value="B2B Design" name="service">
+                                            <label class="btn btn-outline-secondary" for="b2b-design">B2B
+                                                Design</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="something-else" autocomplete="off"
+                                            value="Something Else" name="service">
+                                        <label class="btn btn-outline-secondary" for="something-else">Something
+                                            Else</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <h4>Development</h4>
+
+                                    <div class="d-flex">
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="webflow-code"
+                                                autocomplete="off" value="Webflow Code" name="service">
+                                            <label class="btn btn-outline-secondary" for="webflow-code">Webflow
+                                                Code</label>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="web3" autocomplete="off"
+                                                value="Web 3.0" name="service">
+                                            <label class="btn btn-outline-secondary" for="web3">Web 3.0</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <div class="input-group">
+                                            <input type="checkbox" class="btn-check" id="shopify-code"
+                                                autocomplete="off" value="Shopify Code" name="service">
+                                            <label class="btn btn-outline-secondary" for="shopify-code">Shopify
+                                                Code</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mobile">
+                            <div class="col-sm-12 form-group">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h4>Visual Design</h4>
+                                    <hr style="width: 50%; height: 1px; background: #A29CB0;">
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="web-design2" autocomplete="off"
+                                            value="Web Design" name="service">
+                                        <label class="btn btn-outline-secondary" for="web-design2">Web Design</label>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="app-design2" autocomplete="off"
+                                            value="App Design" name="service">
+                                        <label class="btn btn-outline-secondary" for="app-design2">App Design</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="sass-design2" autocomplete="off"
+                                            value="SAAS Design" name="service">
+                                        <label class="btn btn-outline-secondary" for="sass-design2">SAAS
+                                            Design</label>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="illustration2" autocomplete="off"
+                                            value="Illustration" name="service">
+                                        <label class="btn btn-outline-secondary"
+                                            for="illustration2">Illustration</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="dashboard-design2"
+                                            autocomplete="off" value="Dashboard Design" name="service">
+                                        <label class="btn btn-outline-secondary" for="dashboard-design2">Dashboard
+                                            Design</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="branding-edentity2"
+                                            autocomplete="off" value="Branding Identity" name="service">
+                                        <label class="btn btn-outline-secondary" for="branding-edentity2">Branding
+                                            Identity</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="pitch-deck2" autocomplete="off"
+                                            value="Pitch Deck" name="service">
+                                        <label class="btn btn-outline-secondary" for="pitch-deck2">Pitch Deck</label>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="real-estate2" autocomplete="off"
+                                            value="Real Estate" name="service">
+                                        <label class="btn btn-outline-secondary" for="real-estate2">Real
+                                            Estate</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="b2b-design2" autocomplete="off"
+                                            value="B2B Design" name="service">
+                                        <label class="btn btn-outline-secondary" for="b2b-design2">B2B Design</label>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="something-else2" autocomplete="off"
+                                            value="Something Else" name="service">
+                                        <label class="btn btn-outline-secondary" for="something-else2">Something
+                                            Else</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 form-group" style="margin-top: 40px;">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h4>Development</h4>
+                                    <hr style="width: 50%; height: 1px; background: #A29CB0;">
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="webflow-code2" autocomplete="off"
+                                            value="Webflow Code" name="service">
+                                        <label class="btn btn-outline-secondary" for="webflow-code2">Webflow
+                                            Code</label>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="web32" autocomplete="off"
+                                            value="Web 3.0" name="service">
+                                        <label class="btn btn-outline-secondary" for="web32">Web 3.0</label>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="input-group">
+                                        <input type="checkbox" class="btn-check" id="shopify-code2" autocomplete="off"
+                                            value="Shopify Code" name="service">
+                                        <label class="btn btn-outline-secondary" for="shopify-code2">Shopify
+                                            Code</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tell">
+                        <h3>Tell us about yourself *</h3>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="firstname" type="text"
+                                                class="form-control @error('firstname')is-invalid @enderror"
+                                                placeholder="First name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="lastname" type="text"
+                                                class="form-control @error('lastname')is-invalid @enderror"
+                                                placeholder="Last name">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="email" type="text"
+                                                class="form-control @error('email')is-invalid @enderror"
+                                                placeholder="Email address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="company" type="text"
+                                                class="form-control @error('company')is-invalid @enderror"
+                                                placeholder="Company name">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="describe">
+                        <h3>Describe your project *</h3>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-10">
+                                <div class="form-group">
+                                    <textarea name="describe"
+                                        class="form-control @error('describe')is-invalid @enderror"
+                                        placeholder="It can be a short brief, profile, whatever you think is important for your goals"
+                                        rows="8"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="package">
+                        <h3>Package Options *</h3>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-10">
+                                <div class="form-group">
+                                    <h4>Before deciding, See our details package option <a href="#">here</a></h4>
+
+                                    <div class="desktop">
+                                        <div class="d-flex">
+                                            <div class="input-group">
+                                                <input name="package" type="radio" class="btn-check form-check-input"
+                                                    id="trial-session" autocomplete="off" value="Trial Session">
+                                                <label class="btn btn-outline-secondary" for="trial-session">Trial
+                                                    Session</label>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input name="package" type="radio" class="btn-check form-check-input"
+                                                    id="hourly" autocomplete="off" value="Hourly">
+                                                <label class="btn btn-outline-secondary" for="hourly">Hourly</label>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input name="package" type="radio" class="btn-check form-check-input"
+                                                    id="2weeks" autocomplete="off" value="2 Weeks">
+                                                <label class="btn btn-outline-secondary" for="2weeks">2
+                                                    Weeks</label>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input name="package" type="radio" class="btn-check form-check-input"
+                                                    id="monthly" autocomplete="off" value="Monthly">
+                                                <label class="btn btn-outline-secondary" for="monthly">Monthly</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mobile">
+                                        <div class="d-flex">
+                                            <div class="input-group">
+                                                <input name="package" name="package" type="checkbox" class="btn-check"
+                                                    id="trial-session" autocomplete="off" value="Trial Session">
+                                                <label class="btn btn-outline-secondary" for="trial-session">Trial
+                                                    Session</label>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input name="package" name="package" type="checkbox" class="btn-check"
+                                                    id="hourly" autocomplete="off" value="Hourly">
+                                                <label class="btn btn-outline-secondary" for="hourly">Hourly</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <div class="input-group">
+                                                <input name="package" name="package" type="checkbox" class="btn-check"
+                                                    id="2weeks" autocomplete="off" value="2 Weeks">
+                                                <label class="btn btn-outline-secondary" for="2weeks">2
+                                                    Weeks</label>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input name="package" name="package" type="checkbox" class="btn-check"
+                                                    id="monthly" autocomplete="off" value="Monthly">
+                                                <label class="btn btn-outline-secondary" for="monthly">Monthly</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row submit">
+                        <div class="col-sm-12">
+                            <button class="btn btn-submit" type="submit">
+                                Submit Inquiry <img src="src/assets/img/hero-dot.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="look">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 left">
+                    <div class="top  justify-content-center" data-aos="fade-up">
+                        <img src="src/assets/img/people-illustration.png" alt="">
+                    </div>
+                    <div class="title" data-aos="fade-up">
+                        <h1 class="desktop">Look at the things <br> that are on your <br> mind</h1>
+                        <h1 class="mobile">Look at the things that are on your mind</h1>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="100">Do you have any question? Get in touch at</p>
+                    <a href="mailto:hi@unspace.design" class="btn btn-say-hello" data-aos="fade-up"
+                        data-aos-delay="200">
+                        hi@unspace.design <img src="src/assets/img/hero-arrow.svg">
+                    </a>
+
+                    <div class="bottom" data-aos="fade-up" data-aos-delay="300">
+                        <img src="src/assets/img/people-illustration.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" bg-none" id="accordionFaq" data-aos="fade-up" data-aos-delay="400">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Where I can see your portfolio?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    You can see our portfolio on <a href="https://dribbble.com/unspaceteam"
+                                        class="text-decoration-underline text-dark" target="_blank">Dribbble</a> or <a
+                                        href="https://www.behance.net/unspaceteam"
+                                        class="text-decoration-underline text-dark" target="_blank">Behance</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do you keep the communication during the project?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    To maintain communication throughout the project, it is important to establish
+                                    regular check-ins, use mutually agreed-upon chat platforms, encourage open
+                                    communication, clarify roles and responsibilities, and document communications.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How much does my project cost and how long it take?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    We offer a range of packages for our services, which allows our clients to choose
+                                    the one that best suits their needs and budget. We understand that every client is
+                                    unique and has different requirements, and we want to provide flexible options that
+                                    can accommodate those needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How many hours of work will you give me?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    Our standard work schedule is 7 hours per day.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Will you publish my project as your portfolio?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    As a professional, it is important to respect the wishes and permissions of our
+                                    clients. If I am working on a project and it requires publication or sharing with
+                                    others, I will always make sure to obtain the necessary permissions and approvals
+                                    from the client before doing so. This includes permissions related to
+                                    confidentiality, intellectual property, and other legal considerations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    What’s the payment system for first moment?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    We use a DP (Down Payment) system for first payment. This means that when a client
+                                    engages us for a project, we require a down payment to be made before we begin work.
+                                    This is a common practice in the industry and helps us to ensure that our time and
+                                    resources are being used efficiently.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-faq text-center">
+                        <p data-aos="fade-up" data-aos-delay="100">Do you have any question? Get in touch at</p>
+                        <a href="mailto:hi@unspace.design" class="btn btn-say-hello" data-aos="fade-up"
+                            data-aos-delay="200">
+                            hi@unspace.design <img src="src/assets/img/hero-arrow.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <div class="title">
+                        <h1>Let's create a new obsession with us!</h1>
+                    </div>
+                    <p>Contact us to chat and collaborate with us!</p>
+                    <a href="req-quote.html" class="btn btn-say-hello">
+                        Say Hello for Collab! <img src="src/assets/img/hero-dot.svg">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <ul class="nav justify-content-end social">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">On social earth</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dribbble.com/unspaceteam" target="_blank">
+                                <img src="src/assets/img/dreble-icon.png">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.behance.net/unspaceteam" target="_blank">
+                                <img src="src/assets/img/behance-icon.png">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/unspaceteam" target="_blank">
+                                <img src="src/assets/img/instagram-icon.png">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/company/unspaceteam" target="_blank">
+                                <img src="src/assets/img/linkedin-icon.png">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="mail-to">
+                        <p>Get In Touch,</p>
+                        <a href="mailto:hi@unspace.design">hi@unspace.design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center copyright">
+                <div class="col-sm-8 col-md-6 left">
+                    <h3>
+                        Unspace.
+                        <span>© 2023 Unspace. All rights reserved.</span>
+                    </h3>
+                </div>
+                <div class="col-sm-4 col-md-6 d-flex justify-content-end align-items-center right">
+                    <a href="#">We’re Hiring!</a>
+                    <img src="src/assets/img/unspace-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="src/assets/js/jquery.min.js"></script>
+    <script src="src/assets/js/navbar-scroll.js"></script>
+</body>
+
+</html>
